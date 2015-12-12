@@ -1,0 +1,390 @@
+/* CSS Document */
+@font-face {
+  font-family: 'BYekan';
+  src: url('../fonts/BYekan.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'nassim-bold';
+  src: url('../fonts/nassim-bold.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/nassim-bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/nassim-bold.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+
+* {
+}
+body {
+    background-attachment: fixed;
+    background-color: #e4e4e4;
+    font-family: "HelveticaNeue-Light","HelveticaNeue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.ui-block-a img{
+	width:100% !important;
+}
+.event {
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0 30px;
+    padding: 2px 0;
+}
+.event.listening {
+    background-color: #333333;
+    display: block;
+}
+.event.received {
+    background-color: #4b946a;
+    display: none;
+}
+@keyframes fade {
+0% {
+    opacity: 1;
+}
+50% {
+    opacity: 0.4;
+}
+100% {
+    opacity: 1;
+}
+}
+.blink {
+    animation: 3000ms ease 0s normal none infinite running fade;
+}
+#Logo {
+    display: block !important;
+    margin: 1em auto 0 !important;
+    width: 75% !important;
+}
+.gray {
+    background-color: #e9e9e9 !important;
+	border-color: #CCC !important;
+    color: #333 !important;
+    text-shadow: 0 1px 0 #CCC !important;
+}
+.gray_d {
+    background-color: #BFBFBF !important;
+	border-color: #CCC !important;
+    color: #333 !important;
+    text-shadow: 0 1px 0 #DEDEDE !important;
+}
+.green {
+    background-color: #3cbd58 !important;
+    border-color: #999 !important;
+    color: #fff !important;
+    text-shadow: 0 1px 0 #999 !important;
+	 font-family:'nassim-bold' !important;
+}
+
+.border-tb {
+    border-bottom: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+}
+.right li a {
+    text-align: right !important;
+}
+@media only screen and (max-device-width: 400px) {
+.roydad {
+    height: 23px;
+    width: 170px;
+}
+}
+.red {
+    background-color:#f17c71 !important;
+    border-color: #f17c71 !important;
+    color: #fff !important;
+    text-shadow: 0 1px 0 #f17c71  !important;
+}
+.blue {
+    background-color:#39C !important;
+    border-color: #fff !important;
+    color: #fff !important;
+    text-shadow: 0 .5px 0 #069 !important;
+	 font-family:'nassim-bold' !important;
+}
+.red_gra {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(250, 31, 97, 0), rgba(250, 31, 97, 1)) repeat scroll 0 0;
+}
+.right {
+    direction: rtl !important;
+    text-align: justify !important;
+	
+}
+.font_big {
+	font-size:21px !important;
+	font-family:'BYekan';
+	
+}
+.last {
+    border-right: 6px solid #903 !important;
+	border-left: 6px solid #903 !important;
+    margin-bottom: 0 !important;
+    padding: 0.3em 1em !important;
+    text-align: center !important;
+}
+.last2 {
+    border-right: 6px solid #039 !important;
+	border-left: 6px solid #039 !important;
+    margin-bottom: 0 !important;
+    padding: 0.3em 1em !important;
+    text-align: center !important;
+}
+.rooz{
+	width:100% !important;
+	max-height:100px !important;
+     min-height:36px !important;
+
+	 background: rgba(0, 0, 0, 0) url("../res/text/rooz.png") no-repeat  right 8px center;
+	 
+}
+.twit{
+	 background: rgba(0, 0, 0, 0) url("../res/text/twit.png") no-repeat  right 8px center;
+	 font-family:'BYekan';
+	padding: 0.2em 0.3em !important;
+	font-size:19px !important;
+}
+.sinma{
+	 background: rgba(0, 0, 0, 0) url("../res/text/sinma.png") no-repeat  right 8px center;
+	 font-family:'BYekan';
+	padding: 0.2em 0.3em !important;
+	font-size:19px !important;
+}
+.about{
+	 background: rgba(0, 0, 0, 0) url("../img/about.png") no-repeat  right 8px center;
+}
+.business{
+	 background: rgba(0, 0, 0, 0) url("../img/worker.png") no-repeat  right 8px center;
+}
+.amozesh{
+	 background: rgba(0, 0, 0, 0) url("../img/mind.png") no-repeat  right 8px center;
+}
+.customer{
+	 background: rgba(0, 0, 0, 0) url("../img/busines.png") no-repeat  right 8px center;
+}
+.home{
+	 background: rgba(0, 0, 0, 0) url("../img/home10.png") no-repeat  right 8px center;
+}
+.content{
+	 background: rgba(0, 0, 0, 0) url("../img/phone.png") no-repeat  right 8px center;
+}
+.list{
+	 background: rgba(0, 0, 0, 0) url("../img/list.png") no-repeat  right 8px center;
+}
+.panels li a{
+	padding-right:35px !important;
+	background-color:#EBEBEB !important;
+}
+
+.last p img{
+	width:142px !important;
+	height:20px !important;
+}
+.rooz p{
+	text-align:justify;
+	padding: 5px 45px 5px 10px;
+		font-family:'BKoodakBold' ;
+		color:#333;
+		
+}
+p,li,a{
+	 font-family:'BYekan' !important;
+	 text-align:justify ;
+	 direction:rtl;
+}
+li a{
+font-family:'BYekan' !important;
+font-size:17px !important;
+font-weight: normal!important;
+}
+h1,h2,h3,h4,h5{
+	 font-family:'BYekan' !important;	
+}
+h2{
+	color:#e95855 !important;
+}
+h3{
+font-size:16px !important;
+font-weight: normal!important;
+color:#e95855 !important;	
+}
+h4{
+color:#036 !important;
+font-size:19px !important;
+}
+.pad_h1 {
+    padding: 0.3em !important;
+}
+.postx p,h4{
+	margin:5px 0 !important;
+}
+.post{
+	color:#666; !important;
+	margin:5px 0 !important;
+}
+.dates{
+	color:#FFF; !important;
+	margin:5px 0 !important;
+	padding:3px !important;
+	background-color:#39C !important;
+	text-shadow: 0 1px 0 #666 !important; 
+}
+.pad_ha {
+    padding: 0.3em !important;
+}
+.offline{
+	visibility:visible !important;
+}
+.online{
+	visibility:hidden;
+	display:none !important;
+	z-index:-1000 !important
+}
+.loader{margin:0 auto ;
+margin-right:100px;
+}
+.backoff{
+    background-color: #000000 !important;
+    height: 1984px;
+    left: 0;
+    opacity: 0.5 ;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 9999 !important;
+}
+.elemnts{
+  background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    display: block;
+    height: auto;
+    left: 100px;
+	right:auto;
+    position: absolute;
+    top: 100.5px;
+    width: 150px;
+	padding:10px;
+    word-wrap: break-word;
+    z-index: 10000;
+	}
+ul li a{
+	text-decoration:none !important;
+}
+
+ul li a:active{
+	background-color:#FFC !important;
+	
+}
+@media only screen and (max-device-width: 400px) {
+.font_size17{
+	font-size:19px !important;
+    margin: 0.4em 1.1125em !important;
+	padding: 0.4em 1em !important;
+}
+}
+@media only screen and (min-device-width: 400px) {
+.font_size17{
+	font-size:21px !important;
+	    margin: 0.5em 2.3125em !important;
+		padding: 0.4em 1em !important;
+}
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: right;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    color :#999;
+}
+.menu li:hover {
+   color: #0099cc;
+}
+.marg20{
+margin-bottom:20px !important;
+}
+.ui-content {
+ background: #fff none repeat scroll 0 0;
+    border-bottom: 4px solid #e5e5e5 !important;
+	margin:10px !important;
+    padding: 10px !important;
+}
+.ui-panel-inner{
+	background: #e95855;
+	
+}
+.ui-panel-inner h2{
+	color: #fff !important;
+	    text-shadow: 0 0px 0 #f17c71  !important;
+
+}
+.ui-content h3 {
+    color: #e95855 !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+.ui-content h3 img {
+	padding: 5px 5px 0;
+}
+.pading5{padding:0.5em !important;}
+.ui-page{ background: #f1f1f1 none repeat scroll 0 0 !important;}
+.text9, .text9 a, .text9 a:hover {
+    color: #6c6c6c !important;
+    font-family: 'BYekan',Tahoma;
+    font-size: 13px !important;
+	font-weight:normal !important;
+	line-height:21px;
+}
+.b40 {
+    background: rgba(0, 0, 0, 0) url("../img/tabligheirani_28.png") no-repeat scroll right top;
+    border-radius: 7px;
+    clear: both;
+    cursor: default;
+    direction: rtl;
+    margin: 0 10px;
+    padding: 4px 30px 4px 15px;
+    text-align: right;
+    transition: all 0.3s ease 0s;
+}
